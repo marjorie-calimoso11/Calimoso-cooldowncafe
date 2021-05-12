@@ -1,0 +1,104 @@
+body{
+  background-image: url('back mt.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+    line-height: 1.65; 
+    font-size: 1.3rem;
+    padding: 30px 0px;
+    
+}
+ h1{
+ font-style: italic;
+font: helvetica;
+ color:#eb143c;
+ font-size: 50px;
+text-align: center;
+letter-spacing: 2px;
+padding-top: 50px;
+
+} 
+ .cards {
+    margin:0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card{
+box-shadow: 0 0 3px rgba(0, 0, 0, 0, 1);
+}
+.card_image{
+width: 100%;
+display: block;
+}
+.card_contents{
+line-height: 1.5;
+font-size: 0.9em;
+padding: 15px;
+}
+.navbar {
+    padding: 70px;
+  }
+  .navbar ul {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 1px;
+    padding: 10px 10px 10px;
+    background: white;
+    text-decoration: none;
+  }
+  
+  .navbar li {
+    display: inline;
+    padding-left: 25px;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.32s ease;
+    font-size: 20px;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 1.5em;
+  }
+  
+  .navbar li a:hover {
+    color: black;
+    background: #f59c87;
+  }
+  
+
+.logo img{
+float: left;
+margin-top: 2px;
+margin-left: 40px;
+width: 100px;
+height: auto;
+border-radius: 100%;
+}
+h2{
+    margin-top: 10px;
+    font-style: italic;
+    font: helvetica;
+    color: #eb143c;
+    font-size: 50px;
+    float: right;
+    margin-right: 450px;
+  }
+.footer {
+
+    height: 20px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+    font-size: 18px;
+    color: black;
+    border-top: 5px;
+    text-align: left;
+    /*NEW*/;
+    display: inline-block;
+    font-family: sans-serif;
+    }
